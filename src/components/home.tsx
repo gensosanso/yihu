@@ -1,5 +1,4 @@
 import React from "react";
-import Navbar from "./navigation/Navbar";
 import HeroSection from "./hero/HeroSection";
 import FlightSearchForm from "./search/FlightSearchForm";
 import FeaturedPackages from "./packages/FeaturedPackages";

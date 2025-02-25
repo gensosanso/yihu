@@ -39,20 +39,9 @@ const Navbar = ({
         <NavigationMenu>
           <NavigationMenuList>
             <NavigationMenuItem>
-              <NavigationMenuTrigger>Flights</NavigationMenuTrigger>
-              <NavigationMenuContent>
-                <div className="w-[400px] p-4 grid gap-3">
-                  <Link to="/flights" className={navigationMenuTriggerStyle()}>
-                    Search Flights
-                  </Link>
-                  <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                    Flight Status
-                  </NavigationMenuLink>
-                  <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                    Check-in
-                  </NavigationMenuLink>
-                </div>
-              </NavigationMenuContent>
+              <Link to="/flights" className={navigationMenuTriggerStyle()}>
+                Flights
+              </Link>
             </NavigationMenuItem>
 
             <NavigationMenuItem>
@@ -84,6 +73,11 @@ const Navbar = ({
                   </Link>
                 </div>
               </NavigationMenuContent>
+            </NavigationMenuItem>
+            <NavigationMenuItem>
+              <Link to="/packages" className={navigationMenuTriggerStyle()}>
+                Packages
+              </Link>
             </NavigationMenuItem>
           </NavigationMenuList>
         </NavigationMenu>
